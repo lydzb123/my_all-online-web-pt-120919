@@ -4,8 +4,7 @@ def my_all?(collection)
   while i < collection.length
     block_return_values << yield(collection[i])
     i += 1
-    if block_return_values.include?(true)
-      false
+    if block_return_values.include?(false)
     else
       true
     end
