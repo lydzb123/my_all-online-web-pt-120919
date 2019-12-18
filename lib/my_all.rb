@@ -5,9 +5,9 @@ def my_all?(collection)
     block_return_values << yield(collection[i])
     i += 1
     if block_return_values.include?(true)
-      true
-    else
       false
+    else
+      true
     end
   end
 
