@@ -10,5 +10,5 @@ def my_all?(collection)
       true
     end
   end
-  block_return_values
+  block_return_values[i]
 end
