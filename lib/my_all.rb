@@ -7,7 +7,7 @@ def my_all?(collection)
     if block_return_values.include?(true)
       true
     else
-      true
+      false
     end
   end
 
