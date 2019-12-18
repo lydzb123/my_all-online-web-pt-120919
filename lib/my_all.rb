@@ -10,4 +10,4 @@ def my_all?(collection)
 
 end
 
-my_all?(collection) {|i| i < 3})
+my_all?(collection) {|i| i < 3}
